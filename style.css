@@ -1,10 +1,8 @@
-body {
-    background: #CCCCCC
-    }
 
-    h1{
-     text-align: center
-    }
+
+.primeirocab{
+  text-align: center
+ }
 
 p {
     text-align: center;
@@ -20,4 +18,31 @@ em strong {
 
 #banner {
     width: 100%;
+}
+
+.principal {
+    background: #CCCCCC
+    padding: 30px;
+}
+
+.lista1 {
+    font-style: italic;
+}
+
+.segunda {
+    background:white;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imgbeneficios {
+    width: 50%;
+}
+.titulo-principal {
+    padding-left: 20px;
 }
