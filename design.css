@@ -1,24 +1,15 @@
 
 
-.primeirocab{
-  text-align: center
-
- }
-
 p {
     text-align: center;
 }
 
-#missao {
+.missao {
     font-size: 20px
 }
 
 em strong {
     color: red
-}
-
-#banner {
-    width: 100%;
 }
 
 .principal {
@@ -48,9 +39,19 @@ ul {
     width: 50%;
     text-align: center;
 }
+
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+/* hora do banner */
+.banner {
+    width: 100%;
+}
+
 .titulo-principal {
-    padding-left: 20px;
     text-align: center;
-    background: url("img/bg.jpg");
-    color: white;
+    font-size: 2em;
+    margin-right: 1em;
 }
