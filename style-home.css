@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background: #BBBBBB;
     padding: 20px 0;
@@ -61,6 +65,8 @@ td, th {
 
 .principal p {
     margin: 0 0 1em;
+    width: 80%;
+    text-align: center;
 }
 
 .principal strong {
@@ -74,9 +80,18 @@ td, th {
 .utensilios {
     width: 120px;
     float: left;
-    margin: 0 20px 20px 110px;
+    margin: 0 20px 20px 270px;
 }
 
 .imagembeneficios {
-    width: 60%;
+    width: 70%;
+}
+
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
 }
