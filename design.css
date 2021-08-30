@@ -45,13 +45,24 @@ header {
     padding: 20px 0;
 }
 
-/* hora do banner */
 .banner {
     width: 100%;
 }
 
-.titulo-principal {
+.tituloprincipal {
     text-align: center;
     font-size: 2em;
-    margin-right: 1em;
+    margin: 0 0 1em;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: i;
 }
