@@ -34,6 +34,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
+
 footer {
     text-align: center;
     background: url("img/bg.jpg");
@@ -63,6 +64,13 @@ td, th {
     clear: left;
 }
 
+.titulo-principal:before {
+    content: " [ ";
+}
+.titulo-principal:after {
+    content: " ] ";
+}
+
 .principal p {
     margin: 0 0 1em;
     width: 80%;
@@ -80,7 +88,7 @@ td, th {
 .utensilios {
     width: 138px;
     float: left;
-    margin: 0 20px 20px 270px;
+    margin: 0 20px 20px 245px;
 }
 
 .benefpag {
@@ -89,6 +97,12 @@ td, th {
 }
 .mapa {
     padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
 }
 
 .mapa p {
@@ -103,7 +117,7 @@ td, th {
 }
 
 .imgbeneficios {
-    width: 60%;
+    width: 50%;
 }
 
 
@@ -117,5 +131,18 @@ td, th {
 }
 
 .lista1:first-child {
-    font-weight: bold\ ;
+    font-weight: bold;
+}
+ 
+.principal {
+    background: #fefefe;
+}
+
+.segunda {
+    padding: 3em 0;
+    background: #888888;
+}
+
+.lista1:before {
+    content: "✭";
 }
