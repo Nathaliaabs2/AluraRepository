@@ -79,7 +79,7 @@ td, th {
 }
 
 .utensilios {
-    width: 138px;
+    width: 136px;
     float: left;
     margin: 0 20px 20px 245px;
 }
@@ -104,13 +104,20 @@ td, th {
 }
 
 .lista-beneficios {
-    width: 50%;
+    width: 40%;
     display: inline-block;
     vertical-align: top;
 }
 
 .imgbeneficios {
-    width: 50%;
+    width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imgbeneficios:hover {
+    opacity: 0.3;
 }
 
 
@@ -138,4 +145,29 @@ td, th {
 
 .lista1:before {
     content: "✭";
+}
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .benefpag, .mapa-conteudo, .video{
+        width: auto; }
+        h1 {
+            text-align: center;
+        }
+
+    nav {
+        position: static;
+        margin-left: 10px;
+    }
+
+    .lista-beneficios {
+        width: 100%;
+        margin: 5px 5px;
+    }
+    .imgbeneficios {
+        width: 100%;
+    }
+    .principal p {
+        text-align: center;
+        margin-left: 37px;
+    }
 }
